@@ -3,7 +3,7 @@ name: Script de Scraping Périodique
 on:
   schedule:
     # S'exécute tous les jours à minuit UTC (Modifiable via la syntaxe cron)
-    - cron: '58 16 * * *'
+    - cron: '09 15 * * *'
   workflow_dispatch: # Permet de lancer le script manuellement depuis GitHub si besoin
 
 jobs:
